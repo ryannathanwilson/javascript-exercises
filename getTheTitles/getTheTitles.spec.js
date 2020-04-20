@@ -14,6 +14,7 @@ describe('getTheTitles', function() {
 
   it('gets titles', function() {
     expect(getTheTitles(books)).toEqual(['Book','Book2']);
+    
   });
 
 });
